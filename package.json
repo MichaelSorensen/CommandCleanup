@@ -8,6 +8,9 @@
     "commandcleanup",
     "fataussiefatboy"
   ],
+  "scripts":{
+   "start":"node index.js" 
+  },
   "author": "FatAussieFatBoy",
   "license": "ISC",
   "dependencies": {
