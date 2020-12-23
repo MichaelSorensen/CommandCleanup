@@ -1,7 +1,7 @@
 const { ShardingManager } = require('discord.js');
 const token = process.env.DISCORD_TOKEN;
 const ConsoleHandler = require('./src/util/ConsoleHandler');
-
+console.log(token); 
 const path = require('path');
 
 const manager = new ShardingManager(path.join(__dirname, 'app.js'), { token: token, totalShards: 'auto', respawn: true });
